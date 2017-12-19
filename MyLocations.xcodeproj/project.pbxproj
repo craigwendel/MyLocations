@@ -13,6 +13,7 @@
 		AE00C94A1FE2FA97006B113C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE00C9481FE2FA97006B113C /* Main.storyboard */; };
 		AE00C94C1FE2FA98006B113C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE00C94B1FE2FA98006B113C /* Assets.xcassets */; };
 		AE00C94F1FE2FA98006B113C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE00C94D1FE2FA98006B113C /* LaunchScreen.storyboard */; };
+		AE00C9571FE987D5006B113C /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00C9561FE987D5006B113C /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AE00C94B1FE2FA98006B113C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE00C94E1FE2FA98006B113C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE00C9501FE2FA98006B113C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE00C9561FE987D5006B113C /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				AE00C9421FE2FA97006B113C /* AppDelegate.swift */,
 				AE00C9441FE2FA97006B113C /* CurrentLocationViewController.swift */,
+				AE00C9561FE987D5006B113C /* LocationDetailsViewController.swift */,
 				AE00C9461FE2FA97006B113C /* SecondViewController.swift */,
 				AE00C9481FE2FA97006B113C /* Main.storyboard */,
 				AE00C94B1FE2FA98006B113C /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE00C9571FE987D5006B113C /* LocationDetailsViewController.swift in Sources */,
 				AE00C9471FE2FA97006B113C /* SecondViewController.swift in Sources */,
 				AE00C9431FE2FA97006B113C /* AppDelegate.swift in Sources */,
 				AE00C9451FE2FA97006B113C /* CurrentLocationViewController.swift in Sources */,
